@@ -28,7 +28,7 @@ AMainCharacter::AMainCharacter()
 	bUseControllerRotationYaw = false;
 	GetCharacterMovement()->bOrientRotationToMovement = true; // Character moves in the direction of input
 	GetCharacterMovement()->RotationRate = FRotator(0.0f, 800.f, 0.0f); // ... at this rotation rate (only for yaw)
-	GetCharacterMovement()->JumpZVelocity = 650.f;
+	GetCharacterMovement()->JumpZVelocity = 450.f;
 	GetCharacterMovement()->AirControl = 0.2f;
 }
 
